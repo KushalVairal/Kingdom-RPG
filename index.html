@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rpg Battle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="js/game_manager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+</head>
+<body>
+    <div class="header">
+        <p>Welcome to the Battle Field</p>
+        <h1> Choose your Character</h1>
+    </div>  
+    <div class="interface">
+       
+        <a href="#" onclick="GameManager.setGameStart('King')">
+            <img src="img\players\king.jpg" alt="king">
+            <div>
+                <h2>King</h2>
+                <p> A noble ruler admired for their wisdom and leadership. The fate of the kingdom rests upon their decisions. <br>
+                    Wielding both power and responsibility, the king leads their people with a just and steady hand.<br>
+                    Inspires loyalty, commands respect, adept at diplomacy.Vulnerable to betrayal, burdened by the weight of leadership, limited in physical combat skills.</p>
+            </div>
+        </a>
+            <a href="#" onclick="GameManager.setGameStart('Hunter')">
+                <img src="img\players\hunter.jpg" alt="Hunter">
+                <div>
+                    <h3>Hunter</h3>
+                    <p>A valiant guardian sworn to defend the weak and uphold justice. Their bravery knows no bounds. With a shield of unwavering resolve, the protector shields their allies from harm and stands as a bulwark against darkness. <br>
+                        Excellent defensive capabilities, selfless devotion to allies, skilled in close combat. <br>
+                        May struggle with flexibility, susceptible to overwhelming odds without support, limited offensive abilities.</p>
+                </div>
+            </a>
+            <a href="#" onclick="GameManager.setGameStart('Queen')">
+                <img src="img\players\queen.jpg" alt="queen">
+                <div>
+                    <h4>Queen</h4>
+                    <p>Graceful and resolute, the queen is a beacon of elegance and strength. Her presence commands admiration and respect. <br>
+                        Bearing the weight of the crown with grace, the queen is a pillar of wisdom and compassion, guiding her kingdom through both prosperity and adversity. Charismatic leadership, adept at fostering unity, skilled in political maneuvering.<br>
+                         May face challenges from traditionalists, vulnerable to emotional manipulation, limited in direct combat prowess.</p>
+                </div>
+            </a>
+            <a href="#" onclick="GameManager.setGameStart('Wizard')">
+                <img src="img\players\wizard.jpg" alt="wizard"></img>
+                <div>
+                    <h5>Wizard</h5>
+                    <p>A master of arcane arts, the wizard wields spells of immense power, shaping the very fabric of reality to their will. With a mind as sharp as their spells, seeking knowledge and unlocking the secrets of the universe.<br>
+                        Versatile spell casting abilities, vast knowledge of magic, capable of altering reality.<br>
+                         Physically frail, dependent on spells and mana, susceptible to anti-magic tactics.</p>
+                </div>
+            </a>
+        </div>
+    <div class="actions">
+     
+    </div>
+    <div class="arena">
+       
+    </div>
+    <div class="enemy">
+        
+    </div>
+</body>
+<footer>
+    <div class="foot"><h3>Contact :</h3>
+    <a href="https://github.com/KushalVairal"> <img class="social-icon" src="img/footer/git.png"></img></a>
+    <a href="www.linkedin.com/in/vairal-kushal-a669aa267"> <img class="social-icon" src="img/footer/linkedin.webp"></img></a>
+    <a href="https://twitter.com/VairalKush57503"><img class="social-icon" src="img/footer/x.jpeg"></img></a>
+    <p><strong>Copyright &copy;Vairal_Kushal-2024</strong></p>
+    </div>
+</footer>
+</html>
