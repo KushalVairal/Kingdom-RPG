@@ -87,7 +87,7 @@ img {
     
 #myVideo {
     width: 100vw;
-    max-height: 188px;
+    max-height: 195px;
     object-fit: cover;
     position: fixed;
     top: 0;
