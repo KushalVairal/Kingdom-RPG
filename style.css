@@ -41,6 +41,9 @@ img {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+/* .img-avatar :hover{
+  
+} */
 .stats{
     color: #fff;
 }
@@ -57,17 +60,48 @@ img {
 
 /* Header */
 .header {
-    font-size: 24px;
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 20px;
-}
+        overflow: hidden;
+        text-align: center;
+        font-family: "Permanent Marker", cursive;
+       font-weight: 400;
+       font-style: normal;
+        font-size: 20px;
+        color: #ff0000;
+        animation: morph 5s infinite;
+    }
+    
+    @keyframes morph {
+        0% {
+            font-size: 20px;
+            color: #ffffff;
+        }
+        50% {
+            font-size: 24px;
+            color: #f00;
+        }
+        100% {
+            font-size: 20px;
+            color:  #333;
+        }
+    }
+    
+#myVideo {
+    width: 100vw;
+    max-height: 188px;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 
 /* Action Buttons */
 .btn-preFight, .btn-fight {
-    display: flexbox;
-    padding: 35px 20px;
+    padding: 15px 35px 15px 35px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     align-content: center;
     background-color: rgba(100, 136, 234);
     color: #fff;
@@ -128,8 +162,8 @@ img {
     background-color: #555;
     color: #222;
     font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-weight: 400;
+  font-style: normal;
     justify-content: center;
 }
 
